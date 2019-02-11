@@ -20,7 +20,7 @@ space = " "
 lastName = "Owens"
 
 # puts firstName+space+lastName
-# STRING INTERPOLATION(FOLLOWING) DOES NOT WORK FOR '' OR ``! ONLY "".
+# STRING INTERPOLATION(FOLLOWING) DOES NOT WORK FOR '' OR ``! ONLY "". --It doesn't seem the ``'s exist...
 # puts "My first name is #{firstName} and my last name is #{lastName}."
 # puts lastName.class
 # puts firstName.methods
@@ -39,10 +39,20 @@ firstName = "Bacon"
 # slash escapes special characters
 # puts "The new first name is \#{newFirstName}"
 
-p "what is your first name?"
-first_name = gets.chomp
-puts "Thank you, you said your first name is #{first_name}"
+# p "what is your first name?"
+# first_name = gets.chomp
+# puts "Thank you, you said your first name is #{first_name}"
 
-p "Enter a number to multiply by 2:"
-input = gets.chomp
-puts input.to_i*2
+# p "Enter a number to multiply by 2:"
+# input = gets.chomp
+# puts input.to_i*2
+
+puts "Enter your first name:"
+first_name = gets.chomp
+puts "Enter your last name:"
+last_name = gets.chomp
+puts "Your first name is: #{first_name}"
+puts "Your last name is: #{last_name}"
+puts "Your full name is: #{first_name+" "+last_name}"
+puts "Your name reversed is: #{(first_name+" "+last_name).reverse}"
+puts "Your name count is: #{(first_name+" "+last_name).length}"
