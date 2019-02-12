@@ -47,12 +47,30 @@ firstName = "Bacon"
 # input = gets.chomp
 # puts input.to_i*2
 
-puts "Enter your first name:"
-first_name = gets.chomp
-puts "Enter your last name:"
-last_name = gets.chomp
-puts "Your first name is: #{first_name}"
-puts "Your last name is: #{last_name}"
-puts "Your full name is: #{first_name+" "+last_name}"
-puts "Your name reversed is: #{(first_name+" "+last_name).reverse}"
-puts "Your name count is: #{(first_name+" "+last_name).length}"
+# puts "Enter your first name:"
+# first_name = gets.chomp
+# puts "Enter your last name:"
+# last_name = gets.chomp
+# puts "Your first name is: #{first_name}"
+# puts "Your last name is: #{last_name}"
+# puts "Your full name is: #{first_name+" "+last_name}"
+# puts "Your name reversed is: #{(first_name+" "+last_name).reverse}"
+# puts "Your name count is: #{(first_name+" "+last_name).length}"
+
+# 20.times{puts "hi"}
+# 20.times{puts rand(10)+1}
+# puts "5".to_i*5
+
+puts "simple calculator"
+25.times { print "-"}
+puts "Enter the first number"
+num_1 = gets.chomp
+puts "Enter the second number"
+num_2 = gets.chomp
+puts "The product of #{num_1.to_i} and #{num_2.to_i} is #{num_1.to_i*num_2.to_i}"
+puts "The quotient of #{num_1.to_i} and #{num_2.to_i} is #{num_1.to_i/num_2.to_i} with a remainder of #{num_1.to_i%num_2.to_i}"
+puts "The sum of #{num_1.to_i} and #{num_2.to_i} is #{num_1.to_i+num_2.to_i}"
+puts "The difference of #{num_1.to_i} and #{num_2.to_i} is #{num_1.to_i-num_2.to_i}"
+
+
+
